@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Http\Middleware;
+
+class VerifyCsrfToken
+{
+    protected $except = [];
+    
+    public function handle($request, $next)
+    {
+        return $next($request);
+    }
+}
+// Commit 15 - 2022-02-10 09:51:59
+// Commit 52 - 2022-05-26 14:56:02

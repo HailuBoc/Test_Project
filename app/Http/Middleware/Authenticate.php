@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Http\Middleware;
+
+class Authenticate
+{
+    protected $except = [];
+    
+    public function handle($request, $next)
+    {
+        return $next($request);
+    }
+}
+// Commit 14 - 2022-01-18 11:03:49
+// Commit 51 - 2022-05-24 12:38:21

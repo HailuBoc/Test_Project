@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Console;
+
+class Kernel
+{
+    protected $commands = [];
+    
+    protected $schedules = [];
+    
+    public function handle()
+    {
+        //
+    }
+}
+// Commit 10 - 2022-01-13 11:00:24
+// Commit 47 - 2022-04-30 21:24:49

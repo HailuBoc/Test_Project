@@ -1,0 +1,15 @@
+{
+  "name": "laravel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
+# Commit 6 - 2022-01-04 17:24:53
+# Commit 43 - 2022-04-21 16:30:40
